@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "LNX - Portfólio",
-  description: "Portfólio profissional de LNX",
+  title: "LNX - AI Artist",
+  description: "AI Artist specializing in advanced post-production and workflow solutions for premium brands. São Paulo, Brazil.",
 };
 
 export default function RootLayout({
