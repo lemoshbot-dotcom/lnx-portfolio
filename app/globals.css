@@ -2,15 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Hide ugly scrollbar */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* LNX Official Color Palette - Monochrome Elegance */
+
+  /* BLACKS - Base & Backgrounds */
+  --lnx-pure-black: #000000;
+  --lnx-rich-black: #0a0a0a;
+  --lnx-deep-black: #141414;
+
+  /* GRAYS - Intermediate Elements */
+  --lnx-charcoal: #1a1a1a;
+  --lnx-slate: #262626;
+  --lnx-steel: #404040;
+  --lnx-silver: #737373;
+  --lnx-light-silver: #a3a3a3;
+  --lnx-platinum: #d4d4d4;
+
+  /* WHITES - Text & Highlights */
+  --lnx-snow: #f5f5f5;
+  --lnx-pure-white: #ffffff;
+
+  /* Legacy variables for compatibility */
+  --background: var(--lnx-pure-black);
+  --foreground: var(--lnx-snow);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--lnx-pure-black);
+    --foreground: var(--lnx-snow);
   }
 }
 
@@ -34,6 +63,15 @@ body {
   50% {
     opacity: 1;
     transform: translateY(8px);
+  }
+}
+
+@keyframes imageCarousel {
+  0%, 20% {
+    opacity: 1;
+  }
+  25%, 100% {
+    opacity: 0;
   }
 }
 
@@ -117,5 +155,21 @@ body {
   100% {
     opacity: 0.1;
     transform: scale(0.7) rotate(0deg);
+  }
+}
+
+/* Text highlight animation */
+@keyframes textHighlight {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  11%, 33% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  44% {
+    opacity: 0.4;
+    transform: scale(1);
   }
 }

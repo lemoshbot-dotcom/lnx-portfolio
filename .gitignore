@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.backups/snapshots/
+.backups/logs/
+
+# Token optimizer cache
+.token_cache/

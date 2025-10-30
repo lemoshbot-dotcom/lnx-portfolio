@@ -1,7 +1,7 @@
 // ========================================
-// DADOS DOS PROJETOS - EDITE AQUI
+// PROJECT DATA - EDIT HERE
 // ========================================
-// Para adicionar/editar projetos, basta modificar este arquivo
+// To add/edit projects, simply modify this file
 
 export interface Project {
   id: string;
@@ -10,17 +10,20 @@ export interface Project {
   thumbnail: string;
   gradient: string;
 
-  // Página individual do projeto
+  // Individual project page details
   client?: string;
-  agency?: string; // Agência
-  production?: string; // Produtora
-  duration?: string; // Duração do vídeo (ex: "00:01:30" ou "1:30")
+  agency?: string; // Agency
+  production?: string; // Production company
+  duration?: string; // Video duration (e.g., "00:01:30" or "1:30")
   year?: string;
   role?: string;
-  fullDescription?: string;
-  video?: string; // URL do vídeo local (/projects/video.mp4)
-  vimeoId?: string; // ID do vídeo no Vimeo (ex: "123456789")
-  images?: string[]; // Array de imagens
+  fullDescription?: string; // Legacy - single language
+  fullDescription_pt?: string; // Portuguese description
+  fullDescription_en?: string; // English description
+  video?: string; // Local video URL (/projects/video.mp4)
+  videos?: string[]; // Array of videos for carousel
+  vimeoId?: string; // Vimeo video ID (e.g., "123456789")
+  images?: string[]; // Array of images
   credits?: {
     role: string;
     name: string;
@@ -29,136 +32,183 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "intel-extraordinary",
-    title: "Intel - Extraordinary",
-    description: "AI-Enhanced Visual Effects",
-    thumbnail: "/projects/intel-thumb.jpg",
-    gradient: "from-blue-600/20 to-purple-600/20",
+    id: "bradesco-agro",
+    title: "Bradesco Agro Dupla Raiz",
+    description: "AI-Driven Outfit Replacement",
+    thumbnail: "/projects/bradesco-thumb.jpg",
+    gradient: "from-indigo-600/20 to-purple-600/20",
 
-    // Detalhes da página individual
-    client: "Intel",
-    agency: "AKQA",
-    production: "Stink Films",
-    duration: "00:00:30",
-    year: "2024",
-    fullDescription: "Advanced AI-enhanced visual effects for Intel's Extraordinary campaign. Custom workflow development combining traditional post-production techniques with cutting-edge AI tools to deliver stunning visuals.",
-    vimeoId: "1088165221", // ID real do Vimeo
+    client: "Bradesco",
+    agency: "AlmapBBDO",
+    production: "Pródigo Films",
+    role: "AI Artist & Post-Production",
+    fullDescription: "Digital replacement of wardrobe in live-action footage, ensuring full integration of fabric, texture, and lighting for a realistic and seamless result.",
+    video: "/projects/bradesco-full.mp4",
     credits: [
-      { role: "AI Artist", name: "LNX" },
-      { role: "Post-Production", name: "LNX" }
+      { role: "AI Artist", name: "Lenox" },
+      { role: "Composition", name: "Bruno Vianna" },
+      { role: "Post Production", name: "Pródigo Films" }
     ]
   },
 
   {
-    id: "natura-beauty",
-    title: "Natura Beauty",
-    description: "Advanced Post-Production",
-    thumbnail: "/projects/natura-thumb.jpg",
-    gradient: "from-green-600/20 to-blue-600/20",
+    id: "nubank-brand",
+    title: "Nubank x Wednesday",
+    description: "3D Compositing & Visual Concepts",
+    thumbnail: "/projects/nubank-1.png",
+    gradient: "from-purple-600/20 to-pink-600/20",
 
-    client: "Natura",
-    year: "2024",
-    role: "Post-Production Specialist",
-    fullDescription: "High-end post-production for Natura's beauty campaign. Focused on skin retouching, color grading, and AI-enhanced beauty techniques while maintaining natural aesthetics.",
-    video: "/projects/natura-full.mp4",
-    images: []
-  },
-
-  {
-    id: "itau-digital",
-    title: "Itaú Digital",
-    description: "Creative AI Solutions",
-    thumbnail: "/projects/itau-thumb.jpg",
-    gradient: "from-orange-600/20 to-red-600/20",
-
-    client: "Itaú",
-    year: "2024",
+    client: "Nubank",
     role: "AI Artist",
-    fullDescription: "Creative AI solutions for Itaú's digital transformation campaign.",
-    video: "/projects/itau-full.mp4"
+    fullDescription: "Development of visual concepts, creation of the environment, and 3D compositing of the characters \"Pezinho\" and \"Mãozinha,\" integrating the card into the scene in a way that aligns with the visual identity of the show's second season.",
+    images: [
+      "/projects/nubank-1.png",
+      "/projects/nubank-2.png",
+      "/projects/nubank-3.png"
+    ],
+    credits: [
+      { role: "AI Artist", name: "Lenox" },
+      { role: "3D", name: "Bruno Vianna" },
+      { role: "Retouch", name: "Marcos Nascimento" }
+    ]
   },
 
   {
     id: "jeep-campaign",
     title: "Jeep Campaign",
-    description: "Custom AI Workflow Solution",
-    thumbnail: "/projects/jeep-thumb.jpg",
+    description: "Environment Creation & VFX",
+    thumbnail: "/projects/jeep-thumb.png",
     gradient: "from-cyan-600/20 to-blue-600/20",
 
     client: "Jeep",
-    year: "2023",
-    role: "Workflow Developer & AI Artist",
-    fullDescription: "Custom AI workflow development for Jeep's adventure campaign.",
-    video: "/projects/jeep-full.mp4"
+    agency: "F.biz",
+    production: "Mercuria.tv",
+    fullDescription: "Creation of the environment with basaltic cliffs, low vegetation, and warm golden side-light from late afternoon. Realistic style with wide composition, depth, and strong sense of scale. Production of high-resolution plates for real-scene compositing, and creation of the vehicle with authentic ground impact and physical interaction.",
+    video: "/projects/jeep-full.mp4",
+    credits: [
+      { role: "Directors", name: "We are Magnolias" },
+      { role: "AI Artist", name: "Lenox" },
+      { role: "Post Production", name: "MOSH Post" }
+    ]
   },
 
+  // NIVEA - OCULTO TEMPORARIAMENTE
+  // {
+  //   id: "nivea-beauty",
+  //   title: "Nivea Beauty",
+  //   description: "Character Development",
+  //   thumbnail: "/projects/nivea-thumb.png",
+  //   gradient: "from-pink-600/20 to-rose-600/20",
+  //
+  //   client: "Nivea",
+  //   agency: "Publicis Brazil",
+  //   production: "PXP Studios / Play9",
+  //   role: "AI Visual Artist",
+  //   fullDescription: "Development of a digital avatar of the TV host Eliana, recreating her appearance at approximately 20 years old, faithful to the early stage of her career.",
+  //   video: "/projects/nivea-full.mp4",
+  //   credits: [
+  //     { role: "AI Artist", name: "Lenox" },
+  //     { role: "Post Production", name: "PXP Studios" }
+  //   ]
+  // },
+
   {
-    id: "nubank-brand",
-    title: "Nubank Brand",
-    description: "Workflow Innovation",
-    thumbnail: "/projects/nubank-thumb.jpg",
+    id: "vivo-halloween",
+    title: "Vivo Halloween",
+    description: "AI-Generated Campaign",
+    thumbnail: "/projects/vivo-halloween-capa.png",
     gradient: "from-purple-600/20 to-pink-600/20",
 
-    client: "Nubank",
-    year: "2024",
-    role: "AI Artist & Workflow Specialist",
-    fullDescription: "Innovative workflow solutions for Nubank's brand campaign.",
-    video: "/projects/nubank-full.mp4"
+    client: "Vivo",
+    agency: "GALERIA",
+    role: "AI Artist",
+    fullDescription: "Full AI-generated Halloween campaign for Vivo, combining creative concept development with AI video generation.",
+    video: "/projects/vivo-halloween.mp4",
+    credits: [
+      { role: "AI Artist", name: "Lenox" }
+    ]
   },
 
   {
-    id: "ifood-tech",
-    title: "iFood Tech",
-    description: "AI Art Direction",
-    thumbnail: "/projects/ifood-thumb.jpg",
-    gradient: "from-yellow-600/20 to-orange-600/20",
+    id: "intel-extraordinary",
+    title: "Intel - Extraordinary",
+    description: "AI-Enhanced Visual Effects",
+    thumbnail: "/projects/intel-thumb.png",
+    gradient: "from-blue-600/20 to-purple-600/20",
 
-    client: "iFood",
-    year: "2024",
-    role: "AI Art Director",
-    fullDescription: "AI art direction for iFood's technology campaign.",
-    video: "/projects/ifood-full.mp4"
+    // Individual page details
+    client: "Intel",
+    production: "MAD Gorilla",
+    duration: "00:01:30",
+    fullDescription: "Manifest Film developed for Intel, celebrating technology, creativity, and a future accelerated by artificial intelligence. I was responsible for the creative direction and the entire technical execution of the project, from concept to final delivery.\n\nScope and key deliverables:\n• Manifest development: narrative, messaging, and audiovisual identity\n• Full creation of scenes and visual effects using generative AI models (image and video)\n• Visual development with a technological, futuristic, and dynamic aesthetic\n• Virtual cinematography, color grading, VFX, and digital compositing\n• Format adaptations for online campaigns and institutional screenings",
+    vimeoId: "1088165221", // Real Vimeo ID
+    credits: [
+      { role: "AI Artist", name: "Lenox" }
+    ]
   },
 
   {
     id: "mcdonalds",
     title: "McDonald's",
-    description: "Post-Production Excellence",
-    thumbnail: "/projects/mcdonalds-thumb.jpg",
+    description: "Virtual Production",
+    thumbnail: "/projects/mcdonalds-thumb.png",
     gradient: "from-red-600/20 to-yellow-600/20",
 
     client: "McDonald's",
-    year: "2023",
-    role: "Post-Production Lead",
-    fullDescription: "Post-production excellence for McDonald's advertising campaign.",
-    video: "/projects/mcdonalds-full.mp4"
+    agency: "GALERIA",
+    production: "FRAME",
+    role: "AI Artist",
+    fullDescription_pt: "Responsável pela criação dos concepts e desenvolvimento visual dos ambientes utilizados em Virtual Production. As artes foram geradas com IA e evoluídas para plates de alta fidelidade, permitindo integração cinematográfica rápida e eficiente durante as filmagens. O processo garantiu maior agilidade na construção de cenários complexos, reduzindo dependência de 3D completo e otimizando o tempo de pós-produção.",
+    fullDescription_en: "Responsible for creating concepts and visual development of environments used in Virtual Production. The artworks were AI-generated and evolved into high-fidelity plates, enabling fast and efficient cinematic integration during filming. The process ensured greater agility in building complex sets, reducing reliance on full 3D and optimizing post-production time.",
+    videos: [
+      "/projects/mcdonalds-full.mp4",
+      "/projects/mcdonalds-video2.mp4"
+    ],
+    credits: [
+      { role: "Director", name: "Nixon Freire" },
+      { role: "AI Artist", name: "Lenox" },
+      { role: "Post Production", name: "FRAME" }
+    ]
   },
 
   {
-    id: "bradesco-digital",
-    title: "Bradesco Digital",
-    description: "AI Art & Custom Post-Production",
-    thumbnail: "/projects/bradesco-thumb.jpg",
-    gradient: "from-indigo-600/20 to-purple-600/20",
+    id: "itau-digital",
+    title: "Itaú Uniclass Rock in Rio",
+    description: "Virtual Production",
+    thumbnail: "/projects/itau-thumb.png",
+    gradient: "from-orange-600/20 to-red-600/20",
 
-    client: "Bradesco",
-    year: "2024",
-    role: "AI Artist & Post-Production",
-    fullDescription: "AI art and custom post-production for Bradesco's digital campaign.",
-    video: "/projects/bradesco-full.mp4"
+    client: "Itaú",
+    agency: "GALERIA",
+    production: "CZAR",
+    fullDescription_pt: "Responsável pela criação dos concepts e desenvolvimento visual dos ambientes utilizados em Virtual Production. As artes foram geradas com IA e evoluídas para plates de alta fidelidade, permitindo integração cinematográfica rápida e eficiente durante as filmagens. O processo garantiu maior agilidade na construção de cenários complexos, reduzindo dependência de 3D completo e otimizando o tempo de pós-produção.",
+    fullDescription_en: "Responsible for creating concepts and visual development of environments used in Virtual Production. The artworks were AI-generated and evolved into high-fidelity plates, enabling fast and efficient cinematic integration during filming. The process ensured greater agility in building complex sets, reducing reliance on full 3D and optimizing post-production time.",
+    video: "/projects/itau-full.mp4",
+    credits: [
+      { role: "Directors", name: "Paladino" },
+      { role: "AI Artist", name: "Lenox" },
+      { role: "Post Production", name: "Mosh Post" }
+    ]
   },
 
   {
-    id: "nivea-beauty",
-    title: "Nivea Beauty",
-    description: "AI-Enhanced Visuals",
-    thumbnail: "/projects/nivea-thumb.jpg",
-    gradient: "from-pink-600/20 to-rose-600/20",
+    id: "vivo-pre",
+    title: "Vivo Pre",
+    description: "Virtual Production",
+    thumbnail: "/projects/vivo-pre-thumb.png",
+    gradient: "from-purple-600/20 to-pink-600/20",
 
-    client: "Nivea",
-    year: "2023",
-    role: "AI Visual Artist",
-    fullDescription: "AI-enhanced visuals for Nivea's beauty product line.",
-    video: "/projects/nivea-full.mp4"
+    client: "Vivo",
+    agency: "VML",
+    production: "Corazon",
+    role: "AI Artist",
+    fullDescription_pt: "Responsável pela criação dos concepts e desenvolvimento visual dos ambientes utilizados em Virtual Production. As artes foram geradas com IA e evoluídas para plates de alta fidelidade, permitindo integração cinematográfica rápida e eficiente durante as filmagens. O processo garantiu maior agilidade na construção de cenários complexos, reduzindo dependência de 3D completo e otimizando o tempo de pós-produção.",
+    fullDescription_en: "Responsible for creating concepts and visual development of environments used in Virtual Production. The artworks were AI-generated and evolved into high-fidelity plates, enabling fast and efficient cinematic integration during filming. The process ensured greater agility in building complex sets, reducing reliance on full 3D and optimizing post-production time.",
+    video: "/projects/vivo-pre-full.mp4",
+    credits: [
+      { role: "Director", name: "Marcello Lima" },
+      { role: "AI Artist", name: "Lenox" },
+      { role: "Production", name: "Corazon" }
+    ]
   }
 ];

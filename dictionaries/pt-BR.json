@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "works": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "text1": "AI Artist",
+    "text2": "Pós-Produção Avançada",
+    "text3": "Soluções Personalizadas para marcas e agências"
+  },
+  "about": {
+    "title": "AI ARTIST",
+    "subtitle": "Diretor Criativo Brasileiro & Especialista em IA",
+    "p1": "Fernando Lenox entrega soluções visuais de alto nível para marcas globais líderes.",
+    "p2": "Desenho fluxos de trabalho sob medida que mesclam expertise avançada em pós-produção com ferramentas de IA de ponta, permitindo decisões mais rápidas, criatividade consistente e resultados cinematográficos.",
+    "p3": "Cada projeto é conduzido por um equilíbrio preciso de arte e engenharia, resolvendo desafios criativos complexos através de pipelines personalizados para excelência publicitária."
+  },
+  "skills": {
+    "title": "HABILIDADES",
+    "skill1": {
+      "title": "Ambiente de Conceito Criativo com IA",
+      "description": "Criação visual de alta qualidade com modelos generativos. Controle preciso de luz, cor e textura para campanhas, do conceito ao frame final."
+    },
+    "skill2": {
+      "title": "Pós-Produção Avançada",
+      "description": "Pipelines híbridos combinam técnicas clássicas e IA para acelerar workflows, fornecer upscaling limpo e manter fidelidade estética."
+    },
+    "skill3": {
+      "title": "Soluções Personalizadas",
+      "description": "Engenharia sob demanda: templates, presets e automações que reduzem retrabalho e mantêm consistência entre equipes e fornecedores."
+    },
+    "skill4": {
+      "title": "Workflows para agências e clientes",
+      "description": "Operações escaláveis com IA: entregas multi-formato, lead time reduzido e integração com equipes e parceiros."
+    }
+  },
+  "works": {
+    "title": "PROJETOS SELECIONADOS"
+  },
+  "clients": {
+    "title": "CONFIADO POR MARCAS LÍDERES"
+  },
+  "contact": {
+    "title": "Vamos Criar Juntos",
+    "email": "contact@lnx.art"
+  },
+  "footer": {
+    "copyright": "© 2025 LNX. São Paulo, Brasil."
+  },
+  "projectPage": {
+    "backToProjects": "Voltar aos Projetos",
+    "client": "Cliente",
+    "agency": "Agência",
+    "production": "Produção",
+    "year": "Ano",
+    "role": "Papel",
+    "duration": "Duração",
+    "credits": "Créditos",
+    "aboutProject": "Sobre o Projeto"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "about": "About",
+    "works": "Works",
+    "contact": "Contact"
+  },
+  "hero": {
+    "text1": "AI Artist",
+    "text2": "Advanced Post-Production",
+    "text3": "Custom Solutions for brands and agencies"
+  },
+  "about": {
+    "title": "AI ARTIST",
+    "subtitle": "Brazilian Creative Director & AI Specialist",
+    "p1": "Fernando Lenox delivers high-end visual solutions for leading global brands.",
+    "p2": "I design tailored workflows that merge advanced post-production expertise with state-of-the-art AI tools, enabling faster decisions, consistent creativity, and cinematic results.",
+    "p3": "Every project is driven by a precise balance of artistry and engineering, solving complex creative challenges through custom-built pipelines for advertising excellence."
+  },
+  "skills": {
+    "title": "SKILLS",
+    "skill1": {
+      "title": "AI Creative Concept environment",
+      "description": "High-quality visual creation with generative models. Precise control of light, color, and texture for campaigns, from concept to final frame."
+    },
+    "skill2": {
+      "title": "Advanced Post-Production",
+      "description": "Hybrid pipelines combine classic techniques and AI to accelerate workflows, provide clean upscaling, and maintain aesthetic fidelity."
+    },
+    "skill3": {
+      "title": "Custom Solutions",
+      "description": "On-demand engineering: templates, presets, and automations that reduce rework and maintain consistency across teams and suppliers."
+    },
+    "skill4": {
+      "title": "Workflows for agencies and clients",
+      "description": "Scalable operations with AI: multi-format deliveries, reduced lead time, and integration with teams and partners."
+    }
+  },
+  "works": {
+    "title": "SELECTED WORKS"
+  },
+  "clients": {
+    "title": "TRUSTED BY LEADING BRANDS"
+  },
+  "contact": {
+    "title": "Let's Create Together",
+    "email": "contact@lnx.art"
+  },
+  "footer": {
+    "copyright": "© 2025 LNX. São Paulo, Brazil."
+  },
+  "projectPage": {
+    "backToProjects": "Back to Projects",
+    "client": "Client",
+    "agency": "Agency",
+    "production": "Production",
+    "year": "Year",
+    "role": "Role",
+    "duration": "Duration",
+    "credits": "Credits",
+    "aboutProject": "About the Project"
+  }
+}
