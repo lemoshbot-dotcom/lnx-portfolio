@@ -911,7 +911,7 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
 
             {/* Camada de baixo - bem espalhadas e mais desfocadas */}
             <div className="gallery-item gallery-blur-heavy" style={{ top: '2%', left: '2%', width: '220px', rotate: '-35deg', zIndex: 1 }}>
-              <img src="/gallery/1.png" alt="Gallery 1" />
+              <img src="/gallery/1.PNG" alt="Gallery 1" />
             </div>
 
             <div className="gallery-item gallery-blur-heavy" style={{ top: '10%', left: '25%', width: '240px', rotate: '28deg', zIndex: 2 }}>
@@ -936,7 +936,7 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
             </div>
 
             <div className="gallery-item gallery-blur-medium" style={{ top: '35%', right: '10%', width: '280px', rotate: '19deg', zIndex: 7 }}>
-              <img src="/gallery/1.png" alt="Gallery 1" />
+              <img src="/gallery/1.PNG" alt="Gallery 1" />
             </div>
 
             <div className="gallery-item gallery-blur-medium" style={{ top: '42%', right: '28%', width: '240px', rotate: '-25deg', zIndex: 8 }}>
@@ -962,7 +962,7 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
 
             {/* Camada de cima - sem desfoque, mais nítidas */}
             <div className="gallery-item" style={{ bottom: '8%', left: '12%', width: '340px', rotate: '12deg', zIndex: 13 }}>
-              <img src="/gallery/1.png" alt="Gallery 1" />
+              <img src="/gallery/1.PNG" alt="Gallery 1" />
             </div>
 
             <div className="gallery-item" style={{ bottom: '15%', left: '38%', width: '320px', rotate: '-21deg', zIndex: 14 }}>
