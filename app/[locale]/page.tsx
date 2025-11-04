@@ -931,7 +931,7 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
               <img src="/gallery/5.png" alt="Gallery 5" />
             </div>
 
-            <div className="gallery-item gallery-blur-medium" style={{ top: '38%', left: '32%', width: '250px', rotate: '-31deg', zIndex: 6 }}>
+            <div className="gallery-item gallery-blur-medium" style={{ top: '38%', left: '32%', width: '125px', rotate: '-31deg', zIndex: 6 }}>
               <img src="/gallery/6.png" alt="Gallery 6" />
             </div>
 
@@ -956,7 +956,7 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
               <img src="/gallery/5.png" alt="Gallery 5" />
             </div>
 
-            <div className="gallery-item gallery-blur-light" style={{ bottom: '30%', right: '2%', width: '235px', rotate: '-36deg', zIndex: 12 }}>
+            <div className="gallery-item gallery-blur-light" style={{ bottom: '30%', right: '2%', width: '118px', rotate: '-36deg', zIndex: 12 }}>
               <img src="/gallery/6.png" alt="Gallery 6" />
             </div>
 
