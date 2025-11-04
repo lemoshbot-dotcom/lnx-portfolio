@@ -5,16 +5,17 @@
     "contact": "Contato"
   },
   "hero": {
-    "text1": "AI Artist",
-    "text2": "Pós-Produção Avançada",
-    "text3": "Soluções Personalizadas para marcas e agências"
+    "text1": "Dominando a Fusão de Arte, Código e Luz",
+    "text2": "Onde a Visão Encontra o Algoritmo.",
+    "text3": "Orquestrando Inteligência Através da Arte.",
+    "text4": "Traduzindo Emoção em Linguagem de Máquina."
   },
   "about": {
     "title": "AI ARTIST",
     "subtitle": "Diretor Criativo Brasileiro & Especialista em IA",
-    "p1": "Fernando Lenox entrega soluções visuais de alto nível para marcas globais líderes.",
-    "p2": "Desenho fluxos de trabalho sob medida que mesclam expertise avançada em pós-produção com ferramentas de IA de ponta, permitindo decisões mais rápidas, criatividade consistente e resultados cinematográficos.",
-    "p3": "Cada projeto é conduzido por um equilíbrio preciso de arte e engenharia, resolvendo desafios criativos complexos através de pipelines personalizados para excelência publicitária."
+    "p1": "Com trajetória construída entre a publicidade e a pós-produção, é um dos primeiros profissionais a integrar a IA de forma prática em produções comerciais reais — unindo direção, tecnologia e linguagem visual em um mesmo processo criativo.",
+    "p2": "Seus projetos marcam uma transição concreta entre o experimental e o mercado tradicional, levando soluções híbridas de IA para campanhas exibidas em televisão e outras mídias de grande veiculação. Com olhar técnico e sensibilidade narrativa, Lenox utiliza a inteligência artificial como uma extensão do pensamento criativo, desenvolvendo novas formas de produzir, compor e realizar.",
+    "p3": ""
   },
   "skills": {
     "title": "HABILIDADES",

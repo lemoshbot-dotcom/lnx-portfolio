@@ -5,16 +5,17 @@
     "contact": "Contact"
   },
   "hero": {
-    "text1": "AI Artist",
-    "text2": "Advanced Post-Production",
-    "text3": "Custom Solutions for brands and agencies"
+    "text1": "Mastering the Fusion of Art, Code, and Light",
+    "text2": "Where Vision Meets Algorithm.",
+    "text3": "Orchestrating Intelligence Through Art.",
+    "text4": "Translating Emotion into Machine Language."
   },
   "about": {
     "title": "AI ARTIST",
     "subtitle": "Brazilian Creative Director & AI Specialist",
-    "p1": "Fernando Lenox delivers high-end visual solutions for leading global brands.",
-    "p2": "I design tailored workflows that merge advanced post-production expertise with state-of-the-art AI tools, enabling faster decisions, consistent creativity, and cinematic results.",
-    "p3": "Every project is driven by a precise balance of artistry and engineering, solving complex creative challenges through custom-built pipelines for advertising excellence."
+    "p1": "With a career built between advertising and post-production, he is among the first professionals to integrate AI in a practical way into real commercial productions — uniting direction, technology, and visual language within a single creative process.",
+    "p2": "His projects represent a concrete shift from experimentation to the traditional market, bringing hybrid AI solutions to campaigns broadcast on television and other major media platforms. With a technical eye and narrative sensitivity, Lenox uses artificial intelligence as an extension of creative thinking, developing new ways to produce, compose, and imagine moving images.",
+    "p3": ""
   },
   "skills": {
     "title": "SKILLS",

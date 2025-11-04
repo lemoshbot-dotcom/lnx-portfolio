@@ -59,7 +59,7 @@ export const SkillNode = ({
       </div>
 
       {/* Content */}
-      <div className="p-3">
+      <div className="p-6 min-h-[120px] flex items-center">
         <div className="text-sm font-medium text-white">{skill}</div>
       </div>
     </div>

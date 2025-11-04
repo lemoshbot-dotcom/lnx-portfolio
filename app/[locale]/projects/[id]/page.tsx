@@ -172,13 +172,7 @@ export default function ProjectPage({ params }: { params: Promise<{ locale: stri
   };
 
   const goBackToProjects = () => {
-    router.push(`/${locale}`);
-    setTimeout(() => {
-      const element = document.getElementById('works');
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    }, 100);
+    router.push(`/${locale}#works`);
   };
 
   if (!project) {

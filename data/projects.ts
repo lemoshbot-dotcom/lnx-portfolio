@@ -208,7 +208,7 @@ export const projects: Project[] = [
     credits: [
       { role: "Director", name: "Marcello Lima" },
       { role: "AI Artist", name: "Lenox" },
-      { role: "Production", name: "Corazon" }
+      { role: "Post Production", name: "POST IT" }
     ]
   }
 ];
