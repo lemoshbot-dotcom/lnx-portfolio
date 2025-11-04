@@ -44,3 +44,10 @@ next-env.d.ts
 
 # Token optimizer cache
 .token_cache/
+
+# Large files excluded from Git (kept locally, ignored by Vercel via .vercelignore)
+_works/
+_portifolio/
+*.mp3
+*.prproj
+*.prin

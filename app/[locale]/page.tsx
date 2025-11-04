@@ -17,9 +17,16 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
   const [dict, setDict] = React.useState<any>(null);
 
   React.useEffect(() => {
-    import(`@/dictionaries/${locale}.json`).then((module) => {
-      setDict(module.default);
-    });
+    const loadDict = async () => {
+      try {
+        const response = await fetch(`/dictionaries/${locale}.json`);
+        const data = await response.json();
+        setDict(data);
+      } catch (error) {
+        console.error('Error loading dictionary:', error);
+      }
+    };
+    loadDict();
   }, [locale]);
 
   // Scroll to hash section when page loads

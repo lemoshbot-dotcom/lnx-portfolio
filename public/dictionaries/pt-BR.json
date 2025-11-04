@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "works": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "text1": "Dominando a Fusão de Arte, Código e Luz",
+    "text2": "Onde a Visão Encontra o Algoritmo.",
+    "text3": "Orquestrando Inteligência Através da Arte.",
+    "text4": "Traduzindo Emoção em Linguagem de Máquina."
+  },
+  "about": {
+    "title": "AI ARTIST",
+    "subtitle": "Diretor Criativo Brasileiro & Especialista em IA",
+    "p1": "Com trajetória construída entre a publicidade e a pós-produção, é um dos primeiros profissionais a integrar a IA de forma prática em produções comerciais reais — unindo direção, tecnologia e linguagem visual em um mesmo processo criativo.",
+    "p2": "Seus projetos marcam uma transição concreta entre o experimental e o mercado tradicional, levando soluções híbridas de IA para campanhas exibidas em televisão e outras mídias de grande veiculação. Com olhar técnico e sensibilidade narrativa, Lenox utiliza a inteligência artificial como uma extensão do pensamento criativo, desenvolvendo novas formas de produzir, compor e realizar.",
+    "p3": ""
+  },
+  "skills": {
+    "title": "HABILIDADES",
+    "skill1": {
+      "title": "Ambiente de Conceito Criativo com IA",
+      "description": "Criação visual de alta qualidade com modelos generativos. Controle preciso de luz, cor e textura para campanhas, do conceito ao frame final."
+    },
+    "skill2": {
+      "title": "Pós-Produção Avançada",
+      "description": "Pipelines híbridos combinam técnicas clássicas e IA para acelerar workflows, fornecer upscaling limpo e manter fidelidade estética."
+    },
+    "skill3": {
+      "title": "Soluções Personalizadas",
+      "description": "Engenharia sob demanda: templates, presets e automações que reduzem retrabalho e mantêm consistência entre equipes e fornecedores."
+    },
+    "skill4": {
+      "title": "Workflows para agências e clientes",
+      "description": "Operações escaláveis com IA: entregas multi-formato, lead time reduzido e integração com equipes e parceiros."
+    }
+  },
+  "works": {
+    "title": "PROJETOS SELECIONADOS"
+  },
+  "clients": {
+    "title": "CONFIADO POR MARCAS LÍDERES"
+  },
+  "contact": {
+    "title": "Vamos Criar Juntos",
+    "email": "contact@lnx.art"
+  },
+  "footer": {
+    "copyright": "© 2025 LNX. São Paulo, Brasil."
+  },
+  "projectPage": {
+    "backToProjects": "Voltar aos Projetos",
+    "client": "Cliente",
+    "agency": "Agência",
+    "production": "Produção",
+    "year": "Ano",
+    "role": "Papel",
+    "duration": "Duração",
+    "credits": "Créditos",
+    "aboutProject": "Sobre o Projeto"
+  }
+}
